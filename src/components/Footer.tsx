@@ -14,7 +14,7 @@ export default function Footer() {
             </a>
           </div>
           <p className="mt-8 text-base text-gray-400 md:mt-0 md:order-1">
-            © 2025 MICCAI Workshop. All rights reserved.
+            © 2026 MICCAI Workshop. All rights reserved.
           </p>
         </div>
       </div>

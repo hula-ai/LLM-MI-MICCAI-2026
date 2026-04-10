@@ -9,12 +9,11 @@ export default function CallForPapers() {
       <div className="mt-8 bg-indigo-50 rounded-lg p-6">
         <h2 className="text-xl font-semibold text-indigo-900">Submission Platform</h2>
         <p className="mt-2 text-indigo-700">
-          All submissions should be made through the CMT platform:
+          All submissions should be made through the Open Review platform:
           <a 
-            href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FELAMI2025" 
+            href="#"
+            onClick={(e) => e.preventDefault()}
             className="ml-2 text-indigo-600 hover:text-indigo-900 underline"
-            target="_blank"
-            rel="noopener noreferrer"
           >
             Submit Paper
           </a>
@@ -53,7 +52,7 @@ export default function CallForPapers() {
                 <h3 className="text-lg font-medium text-gray-900">Double-Blind Review Process</h3>
                 <p className="mt-2 text-gray-600">
                   The review process is strictly double-blind. Authors must ensure their submissions are properly anonymized 
-                  following MICCAI 2025 Anonymity guidelines.
+                  following MICCAI 2026 Anonymity guidelines.
                 </p>
               </div>
 

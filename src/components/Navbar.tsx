@@ -3,10 +3,6 @@ import { Link } from "react-router-dom";
 import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
-// Build a base-aware URL for GitHub Pages / subpaths
-const base = import.meta.env.BASE_URL.replace(/\/+$/, "");
-const scheduleHref = `${base}/Schedule.pdf`;
-
 type NavItem = {
   name: string;
   href: string;
@@ -18,7 +14,6 @@ const navigation: NavItem[] = [
   { name: "Call for Papers", href: "/call-for-papers" },
   { name: "Important Dates", href: "/important-dates" },
   { name: "Organizers", href: "/organizers" },
-  { name: "Schedule", href: scheduleHref, external: true },
 ];
 
 // Small helper so we don’t duplicate Link vs <a> logic
@@ -50,7 +45,7 @@ export default function Navbar() {
               <div className="flex">
                 <div className="flex-shrink-0 flex items-center">
                   <span className="text-xl font-bold text-gray-800">
-                    MICCAI 2025 Workshop
+                    MICCAI 2026 Workshop
                   </span>
                 </div>
 

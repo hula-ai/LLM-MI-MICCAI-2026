@@ -26,7 +26,7 @@ export default function Home() {
             variants={fadeIn}
             custom={0}
           >
-            MICCAI 2025 Workshop
+            MICCAI 2026 Workshop
           </motion.h1>
           <motion.p
             className="mt-3 max-w-md mx-auto text-base text-gray-600 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl"
@@ -155,24 +155,6 @@ export default function Home() {
           </div>
         </motion.div>
 
-        {/* Acknowledgment Section (Static with hyperlink) */}
-        <div className="mt-20 bg-gradient-to-r from-gray-100 to-white rounded-xl p-8 shadow-lg">
-          <div className="text-center">
-            <h2 className="text-2xl font-bold text-indigo-900">Acknowledgment</h2>
-            <p className="mt-4 text-lg text-gray-700">
-              The{' '}
-              <a
-                href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2F"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-indigo-600 underline hover:text-indigo-800"
-              >
-                Microsoft CMT service
-              </a>{' '}
-              was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
-            </p>
-          </div>
-        </div>
       </div>
     </div>
   );

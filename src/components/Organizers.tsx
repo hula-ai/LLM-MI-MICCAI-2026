@@ -1,54 +1,61 @@
 import React from 'react';
+import hienNguyenImg from '/public/hien_nguyen.jpg';
+import kevinZhouImg from '/public/kevin_zhou.jpg';
+import vishalPatelImg from '/public/vishal_patel.jpg';
+import nganLeImg from '/public/ngan_le.jpg';
+import yuyinZhouImg from '/public/yuyin_zhou.jpg';
+import yongsongImg from '/public/yongsong_huang.jpeg';
+import akashAwasthiImg from '/public/akash_awasthi.jpg';
 
 const organizers = [
   {
     name: 'Prof. Hien Van Nguyen',
     role: 'General Chair',
     affiliation: 'University of Houston',
-    image: 'https://images.unsplash.com/photo-1744224827405-6c5b82736aa4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MXx8fGVufDB8fHx8fA%3D%3D',
+    image: hienNguyenImg,
     profileUrl: 'https://www.ece.uh.edu/faculty/nguyen', // Replace with actual URL
   },
   {
     name: 'Prof. S. Kevin Zhou',
     role: 'Program Chair',
     affiliation: 'Institute of Computing Technology, Chinese Academy of Sciences',
-    image: 'https://images.unsplash.com/photo-1744225159985-841d5efb5b23?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MXx8fGVufDB8fHx8fA%3D%3D',
+    image: kevinZhouImg,
     profileUrl: 'https://sz.ustc.edu.cn/en/en_research_show/42.html', // Replace with actual URL
   },
   {
     name: 'Prof. Vishal M. Patel',
     role: 'Technical Chair',
     affiliation: 'Johns Hopkins University',
-    image: 'https://images.unsplash.com/photo-1744225709746-ce5b95baaacf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MXx8fGVufDB8fHx8fA%3D%3D',
+    image: vishalPatelImg,
     profileUrl: 'https://engineering.jhu.edu/faculty/vishal-patel/', // Replace with actual URL
   },
   {
     name: 'Prof. Ngan Le',
     role: 'Technical Chair',
     affiliation: 'University of Arkansas',
-    image: 'https://images.unsplash.com/photo-1744224929001-4cae66a05fde?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MXx8fGVufDB8fHx8fA%3D%3D',
+    image: nganLeImg,
     profileUrl: 'https://engineering.uark.edu/electrical-engineering-computer-science/electrical-engineering-faculty/uid/thile/name/Thi+Hoang+Ngan+Le/', // Replace with actual URL
   },
 {
     name: 'Prof. Yuyin Zhou',
     role: 'Technical Chair',
     affiliation: 'University of California, Santa Cruz',
-    image: 'https://images.unsplash.com/photo-1744228081497-4ab20e4eb0df?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MXx8fGVufDB8fHx8fA%3D%3D',
+    image: yuyinZhouImg,
     profileUrl: 'https://campusdirectory.ucsc.edu/cd_detail?uid=yzhou284', // Replace with actual URL
   },
 {
-    name: 'Dr. Sheng Liu',
+    name: 'Dr. Yongsong HUANG',
     role: 'Technical Chair',
-    affiliation: 'Stanford University',
-    image: 'https://images.unsplash.com/photo-1744228427580-1dbc08257c5d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MXx8fGVufDB8fHx8fA%3D%3D',
-    profileUrl: 'https://profiles.stanford.edu/325104', // Replace with actual URL
+    affiliation: 'Tohoku University',
+    image: yongsongImg,
+    profileUrl: 'https://hyongsong.work/',
   },
   {
-    name: 'Akash Awasthi',
+    name: 'Dr. Akash Awasthi',
     role: 'Technical Committee Member',
-    affiliation: 'University of Houston',
-    image: 'https://images.unsplash.com/photo-1744224573793-5064c79a4c11?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MXx8fGVufDB8fHx8fA%3D%3D',
-    profileUrl: 'https://scholar.google.co.in/citations?user=IM6EGDIAAAAJ&hl=en', // Replace with actual URL
+    affiliation: 'NASA Earth eXchange (NEX)',
+    image: akashAwasthiImg,
+    profileUrl: 'https://www.nasa.gov/people/akash-awasthi/',
   }
 ];
 
