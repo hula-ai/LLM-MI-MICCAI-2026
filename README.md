@@ -1,4 +1,4 @@
-# LLM-MI-MICCAI-2025
+# LLM-MI-MICCAI-2026
 
 # How to pull the latest code from the repository for the first time:
 
