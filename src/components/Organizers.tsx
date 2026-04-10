@@ -52,7 +52,7 @@ const organizers = [
   },
   {
     name: 'Dr. Akash Awasthi',
-    role: 'Technical Committee Member',
+    role: 'Technical Chair',
     affiliation: 'NASA Earth eXchange (NEX)',
     image: akashAwasthiImg,
     profileUrl: 'https://www.nasa.gov/people/akash-awasthi/',
