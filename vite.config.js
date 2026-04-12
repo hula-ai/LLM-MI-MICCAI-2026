@@ -7,8 +7,8 @@ import react from "@vitejs/plugin-react";
 // https://vitejs.dev/config/
 export default defineConfig({
   // IMPORTANT: for GitHub Pages use a trailing slash
-  // e.g., https://<user>.github.io/Elami-2026/
-  base: "/Elami-2026/",
+  // e.g., https://<user>.github.io/miccai-elami-2026/
+  base: "/miccai-elami-2026/",
   plugins: [
     react(),
     {
